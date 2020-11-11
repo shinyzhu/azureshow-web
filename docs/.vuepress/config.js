@@ -1,19 +1,19 @@
 module.exports = {
-  title: 'Mediumish',
-  base: '/vuepress-theme-mediumish/',
-  description: 'Blog example for Mediumish theme with VuePress',
-  logo: './assets/img/logo.png',
+  title: 'AzureShow',
+  base: '/',
+  description: 'AzureShow - 关于Azure的视频节目',
+  logo: './assets/img/logo-azureshow.png',
   theme: require.resolve('../../'),
   themeConfig: {
   authors: [
       {
-      name: 'Sal',
+      name: 'Shiny',
       avatar: '/assets/img/sal.jpg',
       link: 'https://wowthemes.net/donate',
       linktext: 'Follow',
       },
       {
-        name: 'John Doe',
+        name: 'Kinfey',
         avatar: '/assets/img/avatar.png',
         link: 'https://bootstrapstarter.com/',
         linktext: 'Follow',
@@ -82,7 +82,7 @@ module.exports = {
       hostname: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/'
     },
     comment: {
-      service: 'disqus',
+      service: 'gitalk',
       shortname: 'demowebsite',
     },
     newsletter: {

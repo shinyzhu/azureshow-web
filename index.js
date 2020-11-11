@@ -7,14 +7,14 @@ module.exports = themeConfig => {
    * Default theme configuration
    */
   themeConfig = Object.assign(themeConfig, {
-    logo: '/assets/img/logo.png',
+    logo: '/assets/img/logo-azureshow.png',
     nav: themeConfig.nav || [
       {
-        text: 'Blog',
+        text: '首页',
         link: '/',
       },
       {
-        text: 'Tags',
+        text: '标签',
         link: '/tag/',
       },
     ],
